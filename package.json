@@ -10,8 +10,8 @@
     "react-shopping-cart": "^1.7.2",
     "redux": "^3.7.2",
     "redux-forms": "^1.0.0-2",
-    "webpack": "^3.6.0",
-    "styled-components": "2.0.0"
+    "styled-components": "2.0.0",
+    "webpack": "^3.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,10 +21,12 @@
     "flow": "flow"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "6.24.1",
     "babel-eslint": "7.2.3",
     "babel-loader": "7.0.0",
     "babel-preset-env": "1.5.1",
+    "babel-preset-flow": "^6.23.0",
     "babel-preset-react": "6.24.1",
     "enzyme": "2.8.2",
     "eslint": "3.19.0",
