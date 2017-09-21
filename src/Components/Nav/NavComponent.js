@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-
 import styled from 'styled-components';
-import './Nav.css';
+
+import Cart from '../Cart/Cart';
+import Login from '../Login/Login';
+// import './Nav.css';
 
 const Navbar = styled.nav`
   display: flex;
@@ -21,15 +23,10 @@ export default class Nav extends Component {
     return (
       <Navbar className="">
         <div className="flex flex_align_center flex_center flex_5">
-          &#123; Logo goes here &#125;
+          {'{ Logo goes here }'}
         </div>
-        <div className="flex flex_align_center flex_center flex_2">
-          &#123; Cart goes here &#125;
-        </div>
-        <div className="flex flex_align_center flex_center flex_1">
-          Login/<br />
-          Sign up
-        </div>
+        <Cart />
+        <Login />
       </Navbar>
     );
   }
