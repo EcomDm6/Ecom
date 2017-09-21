@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 import Cart from '../Cart/Cart';
@@ -14,20 +14,13 @@ const Navbar = styled.nav`
   padding: 10px;
 `;
 
-export default class Nav extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
-    return (
-      <Navbar className="">
-        <div className="flex flex_align_center flex_center flex_5">
-          {'{ Logo goes here }'}
-        </div>
-        <Cart />
-        <Login />
-      </Navbar>
-    );
-  }
-}
+const Nav = () => (
+  <Navbar className="">
+    <div className="flex flex_align_center flex_center flex_5">
+      {'{ Logo goes here }'}
+    </div>
+    <Cart />
+    <Login />
+  </Navbar>
+);
+export default Nav;
