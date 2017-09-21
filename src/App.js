@@ -1,6 +1,14 @@
 // @flow
-import React from "react";
+import React from 'react';
 
-const App = () => <div>Working App!</div>;
+import Nav from './Components/Nav/NavComponent';
+import './style.css';
+
+const App = () => (
+  <div>
+    <Nav />
+    <div className="">Working App!</div>
+  </div>
+);
 
 export default App;
