@@ -1,10 +1,9 @@
+// @flow
 import React from 'react';
-import './SaleComponent.css'
+import './SaleComponent.css';
 
-const SaleContainer = () => {
-        return (
-            <div className="SaleMainContainer">Top 5 sales</div>
-        );
-};
+const SaleContainer = () => (
+  <div className="SaleMainContainer">Top 5 sales</div>
+);
 
 export default SaleContainer;
