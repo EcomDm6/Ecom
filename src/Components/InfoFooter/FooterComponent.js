@@ -1,8 +1,18 @@
 import React from 'react';
+import styled from 'styled-components';
 import './Footer.css';
 
 const FooterContainer = () => (
-  <div className="FooterMainContainer">Additional routes go here</div>
+  <FooterDiv className="FooterMainContainer">
+    Additional routes go here
+  </FooterDiv>
 );
 
 export default FooterContainer;
+
+const FooterDiv = styled.div`
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  color: white;
+`;

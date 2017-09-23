@@ -1,11 +1,15 @@
 // @flow
 import React from 'react';
-// import './Cart.css';
+import styled from 'styled-components';
+import './Cart.css';
 
-const Cart = () => (
-  <div className="flex flex_align_center flex_center flex_2">
-    {'{ Cart goes here }'}
-  </div>
-);
+const Cart = () => <CartContainer>{'{ Cart goes here }'}</CartContainer>;
 
 export default Cart;
+
+const CartContainer = styled.div`
+  display-flex: center;
+  flex-grow: 2;
+  justify-content: center;
+  align-items: center;
+`;
