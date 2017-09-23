@@ -4,9 +4,18 @@ import styled from 'styled-components';
 
 import Cart from '../Cart/Cart';
 import Login from '../Login/Login';
-// import './Nav.css';
+import './Nav.css';
 
-const Navbar = styled.nav`
+const Nav = () => (
+  <NavContainer className="">
+    <LogoDiv>{'{ Logo goes here }'}</LogoDiv>
+    <Cart />
+    <Login />
+  </NavContainer>
+);
+export default Nav;
+
+const NavContainer = styled.nav`
   display: flex;
   justify-content: space-around;
   background-color: black;
@@ -14,14 +23,9 @@ const Navbar = styled.nav`
   font-size: 1.5em;
   padding: 10px;
 `;
-
-const Nav = () => (
-  <Navbar className="">
-    <div className="flex flex_align_center flex_center flex_5">
-      {'{ Logo goes here }'}
-    </div>
-    <Cart />
-    <Login />
-  </Navbar>
-);
-export default Nav;
+const LogoDiv = styled.div`
+  display: flex;
+  align-items: center;
+  flex-grow: 5;
+  justify-content: center;
+`;

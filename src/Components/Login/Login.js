@@ -1,12 +1,21 @@
 // @flow
 
 import React from 'react';
+import styled from 'styled-components';
 // import './.css';
 
 const Login = () => (
-  <div className="flex flex_align_center flex_center flex_1">
-    Login/<br />
+  <LoginContainer>
+    Login
+    <br />
+    /
+    <br />
     Sign up
-  </div>
+  </LoginContainer>
 );
 export default Login;
+
+const LoginContainer = styled.div`
+  text-align: center;
+  flex-grow: 1;
+`;

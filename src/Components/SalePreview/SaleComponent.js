@@ -1,9 +1,15 @@
 // @flow
 import React from 'react';
+import styled from 'styled-components';
 import './SaleComponent.css';
 
-const SaleContainer = () => (
-  <div className="SaleMainContainer">Top 5 sales</div>
-);
+const SaleComponent = () => <SaleContainer>Top 5 sales</SaleContainer>;
 
-export default SaleContainer;
+export default SaleComponent;
+
+const SaleContainer = styled.div`
+  background-color: grey;
+  height: 600px;
+  width: 100%;
+  color: white;
+`;
