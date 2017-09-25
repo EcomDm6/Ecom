@@ -16,6 +16,5 @@ const Login = () => (
 export default Login;
 
 const LoginContainer = styled.div`
-  text-align: center;
-  flex-grow: 1;
+
 `;
