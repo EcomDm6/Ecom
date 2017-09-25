@@ -13,9 +13,8 @@ export default class MiddleNavComponent extends Component {
 };
 
 
-
 const MiddleDiv = styled.div`
   background-color: white;
-  height: 3vh;
+  height: 5vh;
   display: flex;
 `;
