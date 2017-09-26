@@ -17,5 +17,4 @@ const CartContainer = styled.div`
   flex-direction: row-reverse;
   align-self: center;
   padding-right: 20px;
-
 `;

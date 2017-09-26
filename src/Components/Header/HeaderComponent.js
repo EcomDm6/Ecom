@@ -1,10 +1,11 @@
 // @flow
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import styled from 'styled-components';
 
 import Cart from '../Cart/Cart';
 import Login from '../Login/Login';
-import 'bootstrap/dist/css/bootstrap.css';
+
 import './Header.css';
 
 const Header = () => (
@@ -19,7 +20,6 @@ const Header = () => (
     </HeaderContainer>
 );
 export default Header;
-
 
 const HeaderContainer = styled.nav`
   height: 10vh;

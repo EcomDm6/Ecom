@@ -1,11 +1,12 @@
 // @flow
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import styled from 'styled-components';
 import Header from './Components/Header/HeaderComponent';
 import SaleComponent from './Components/SalePreview/SaleComponent';
 import FooterContainer from './Components/InfoFooter/FooterComponent';
 import MiddleNavComponent from './Components/MiddleNavBar/MiddleNavComponent';
-import 'bootstrap/dist/css/bootstrap.css';
+
 
 import './style.css';
 
