@@ -1,17 +1,29 @@
 // @flow
 import React from 'react';
-
-import Nav from './Components/Nav/NavComponent';
+import 'bootstrap/dist/css/bootstrap.css';
+import styled from 'styled-components';
+import Header from './Components/Header/HeaderComponent';
 import SaleComponent from './Components/SalePreview/SaleComponent';
 import FooterContainer from './Components/InfoFooter/FooterComponent';
+import MiddleNavComponent from './Components/MiddleNavBar/MiddleNavComponent';
+
+
 import './style.css';
 
+
+
 const App = () => (
-  <div>
-    <Nav />
+  <MainContainerDiv className="container-fluid">
+    <Header />
+    <MiddleNavComponent />
     <SaleComponent />
     <FooterContainer />
-  </div>
+  </MainContainerDiv>
 );
 
 export default App;
+
+const MainContainerDiv = styled.div`
+  margin: 0;
+  padding: 0;
+`;
