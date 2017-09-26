@@ -1,11 +1,11 @@
 // @flow
 import React from 'react';
 import styled from 'styled-components';
-import Nav from './Components/Nav/NavComponent';
+import Header from './Components/Header/HeaderComponent';
 import SaleComponent from './Components/SalePreview/SaleComponent';
 import FooterContainer from './Components/InfoFooter/FooterComponent';
 import MiddleNavComponent from './Components/MiddleNavBar/MiddleNavComponent';
-import { containerFluid } from 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 import './style.css';
 
@@ -13,7 +13,7 @@ import './style.css';
 
 const App = () => (
   <MainContainerDiv className="container-fluid">
-    <Nav />
+    <Header />
     <MiddleNavComponent />
     <SaleComponent />
     <FooterContainer />

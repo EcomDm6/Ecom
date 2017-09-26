@@ -6,15 +6,12 @@ import styled from 'styled-components';
 
 const Login = () => (
   <LoginContainer>
-    Login
-    <br />
-    /
-    <br />
-    Sign up
+    SIGN IN
   </LoginContainer>
 );
 export default Login;
 
 const LoginContainer = styled.div`
-
+  align-self: center;
+  padding-right: 20px;
 `;
