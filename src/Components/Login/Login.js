@@ -3,12 +3,16 @@
 import React from 'react';
 import styled from 'styled-components';
 // import './.css';
+import LoginModal from './LoginModal';
 
-const Login = () => (
-  <LoginContainer>
-    SIGN IN
-  </LoginContainer>
-);
+const Login = () => {
+
+  return (
+    <LoginContainer>
+      <LoginModal />
+    </LoginContainer>
+  )
+};
 export default Login;
 
 const LoginContainer = styled.div`
