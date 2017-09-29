@@ -16,6 +16,8 @@ const Login = () => {
 export default Login;
 
 const LoginContainer = styled.div`
-  align-self: center;
-  padding-right: 20px;
+  float: right;
+  width: 10vw;
+  height: 100%;
+  padding-top: 3.8vh;
 `;
