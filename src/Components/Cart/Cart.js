@@ -12,9 +12,8 @@ const Cart = () => (
 export default Cart;
 
 const CartContainer = styled.div`
-  flex: auto;
-  display-flex: right;
-  flex-direction: row-reverse;
-  align-self: center;
-  padding-right: 20px;
+  width: 8vw;
+  height: 10vh;
+  float: right;
+  padding-top: 2.8vh;
 `;

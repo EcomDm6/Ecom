@@ -7,3 +7,16 @@
   margin: 0 !important;
   padding: 0 !important;
 }
+
+ul {
+  list-style-type: none;
+  width: 100vw;
+}
+
+li {
+  display: inline-block;
+  justify-content: space-between;
+  padding-left: 5vw;
+  padding-right:5vw;
+  text-align: center;
+}
